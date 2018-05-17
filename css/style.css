@@ -1,6 +1,18 @@
-#title {
-	text-align: center;
+h1 {
+	font-size: 200px;
+	color: #282828;
 }
 
+html, body {
+  height:100%;
+}
+body {
+  display:flex;
+  align-items:center;
+}
+
+.buttons {
+	margin-bottom: 100px;
+}
 
 
