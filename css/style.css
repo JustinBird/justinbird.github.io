@@ -1,6 +1,7 @@
 h1 {
-	font-size: 200px;
+	font-size: 20px;
 	color: #282828;
+	margin-bottom: -20px;
 }
 
 html, body {
@@ -11,8 +12,39 @@ body {
   align-items:center;
 }
 
-.buttons {
-	margin-bottom: 100px;
+@media (max-width: 575px) {
+	#title {
+		font-size: 106px;
+		color: purple;
+	}
+}
+
+@media (min-width: 576px) {
+	#title {
+		font-size: 106px;
+		color: red;
+	}
+}
+
+@media (min-width: 768px) {
+	#title {
+		font-size: 144px;
+		color: yellow;
+	}
+}
+
+@media (min-width: 992px) {
+	#title {
+		font-size: 196px;
+		color: blue;
+	}
+}
+
+@media (min-width: 1200px) {
+	#title {
+		font-size: 234px;
+		color: green;
+	}
 }
 
 
