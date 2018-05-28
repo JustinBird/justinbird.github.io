@@ -1,50 +1,74 @@
-h1 {
-	font-size: 20px;
-	color: #282828;
-	margin-bottom: -20px;
-}
-
 html, body {
   height:100%;
 }
+
 body {
   display:flex;
   align-items:center;
 }
 
+#title {
+	font-size: 106px;
+	color: #282828;
+	margin-bottom: -10px;
+}
+
+#navbar {
+	border-bottom: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #282828;
+	
+	border-top: 1px;
+	border-top-style: solid;
+	border-top-color: #282828;
+}
+
+.navelement:hover {
+	background-color: #282828;
+}
+
+.navelement:hover .navlink {
+	color: white;
+}
+
+.navlink {
+	color: #282828;
+	text-decoration: none;
+}
+
+.navlink:hover {
+	text-decoration: none;
+}
+
 @media (max-width: 575px) {
 	#title {
 		font-size: 106px;
-		color: purple;
 	}
 }
 
 @media (min-width: 576px) {
 	#title {
 		font-size: 106px;
-		color: red;
 	}
 }
 
 @media (min-width: 768px) {
 	#title {
 		font-size: 144px;
-		color: yellow;
 	}
 }
 
 @media (min-width: 992px) {
 	#title {
 		font-size: 196px;
-		color: blue;
 	}
 }
 
 @media (min-width: 1200px) {
 	#title {
 		font-size: 234px;
-		color: green;
 	}
 }
+
 
 
