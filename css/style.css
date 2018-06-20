@@ -1,8 +1,9 @@
-html, body {
+#mainhtml {
 	height:100%;
 }
 
 #mainbody {
+	height: 100%;
 	display:flex;
 	align-items:center;
 }
@@ -23,6 +24,16 @@ html, body {
 	border-top-color: #282828;
 	
 	margin-bottom: 10px;
+}
+
+.pagenavbar {
+	margin-top: 10px;
+}
+
+.slideshow {
+	width: 400px;
+	float: right;
+	margin-left: 20px;
 }
 
 .navelement:hover {
