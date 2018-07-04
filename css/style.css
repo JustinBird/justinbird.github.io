@@ -30,12 +30,6 @@
 	margin-top: 10px;
 }
 
-.slideshow {
-	width: 400px;
-	float: right;
-	margin-left: 20px;
-}
-
 .navelement:hover {
 	background-color: #282828;
 }
