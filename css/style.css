@@ -53,6 +53,10 @@
 	#title {
 		font-size: 120px;
 	}
+	
+	.navlink {
+		font-size: 15px;
+	}
 }
 
 @media (min-width: 576px) {
