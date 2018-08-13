@@ -1,12 +1,13 @@
-#mainhtml {
+.centerhtml {
 	height:100%;
 }
 
-#mainbody {
+.centerbody {
 	height: 100%;
 	display:flex;
 	align-items:center;
 }
+
 
 #title {
 	font-size: 106px;
@@ -50,13 +51,7 @@
 }
 
 @media (max-width: 575px) {
-	#title {
-		font-size: 120px;
-	}
-	
-	.navlink {
-		font-size: 15px;
-	}
+
 }
 
 @media (min-width: 576px) {
