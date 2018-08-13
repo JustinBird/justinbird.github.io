@@ -24,10 +24,16 @@
 
 <body>
 <div class="container">
+	<div class="d-none d-sm-block">
+	<!-- Desktop Navbar -->
 	<div class="container pagenavbar" id="navbar">	
 		<div class="row">
 			<div class="col navelement text-center">
-				<a class="navlink" href="index.html">Home</a>
+				<a class="navlink" href=".">Home</a>
+			</div>
+			
+			<div class="col navelement text-center">
+				<a class="navlink" href="projects.html">Projects</a>
 			</div>
 			
 			<div class="col navelement text-center">
@@ -35,13 +41,59 @@
 			</div>
 			
 			<div class="col navelement text-center">
-				<a class="navlink" href="https://github.com/JustinBird" target="_blank">GitHub</a>
+				<a class="navlink" 
+				href="https://github.com/JustinBird" 
+				target="_blank">
+				GitHub</a>
 			</div>
 			
 			<div class="col navelement text-center">
-				<a class="navlink" href="https://www.linkedin.com/in/jbird99/" target="_blank">LinkedIn</a>
+				<a class="navlink" 
+				href="https://www.linkedin.com/in/jbird99/" 
+				target="_blank">
+				LinkedIn</a>
 			</div>
 		</div>
+	</div>
+	</div>
+	
+	<!-- Mobile Navbar -->
+	<div class="d-block d-sm-none">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<a class="navbar-brand">Justin Bird</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href=".">Home <span class="sr-only">(current)</span></a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="projects.html">Projects</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" href="resume.html">Resume</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" 
+						href="https://github.com/JustinBird"
+						target="_blank">
+						Github</a>
+					</li>
+					
+					<li class="nav-item">
+						<a class="nav-link" 
+						href="https://www.linkedin.com/in/jbird99/"
+						target="_blank">
+						LinkedIn</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
 	</div>
 	
 	<div class="row">
