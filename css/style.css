@@ -1,6 +1,3 @@
-
-
-
 #title {
 	font-size: 106px;
 	color: #282828;
@@ -43,7 +40,9 @@
 }
 
 @media (max-width: 575px) {
-
+	#title {
+		font-size: 56px;
+	}
 }
 
 @media (min-width: 576px) {
