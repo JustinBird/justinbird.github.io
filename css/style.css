@@ -1,12 +1,4 @@
-.centerhtml {
-	height:100%;
-}
 
-.centerbody {
-	height: 100%;
-	display:flex;
-	align-items:center;
-}
 
 
 #title {
@@ -57,6 +49,16 @@
 @media (min-width: 576px) {
 	#title {
 		font-size: 106px;
+	}
+	
+	.centerhtml {
+		height:100%;
+	}
+
+	.centerbody {
+		height: 100%;
+		display:flex;
+		align-items:center;
 	}
 }
 
